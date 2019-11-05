@@ -1,0 +1,89 @@
+apiVersion: v1
+entries:
+  jenkins:
+  - apiVersion: v1
+    appVersion: lts
+    created: "2019-11-05T16:05:53.7244185+05:30"
+    description: Open source continuous integration server. It supports multiple SCM
+      tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
+      Maven-based projects as well as arbitrary scripts.
+    digest: 83145a62ed8453509ca3caf12e5f83730794a498432aac3b0e347664d715cee6
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    maintainers:
+    - email: lachlan.evenson@microsoft.com
+      name: lachie83
+    - email: viglesias@google.com
+      name: viglesiasce
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://github.com/nuvo/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - jenkins-1.3.6.tgz
+    version: 1.3.6
+  kong:
+  - apiVersion: v1
+    appVersion: 1.1.1
+    created: "2019-11-05T16:05:53.8030078+05:30"
+    description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
+    digest: 8bae0a23ded011d426afdd4cbdd473df8fe03274694ec18a201e9a69da0a8fe4
+    engine: gotpl
+    home: https://KongHQ.com/
+    icon: https://s3.amazonaws.com/downloads.kong/universe/assets/icon-kong-inc-large.png
+    maintainers:
+    - email: parth.patil@imaginea.com
+      name: parthp
+    name: kong
+    sources:
+    - https://github.com/Kong/kong
+    urls:
+    - kong-0.9.5.tgz
+    version: 0.9.5
+  konga:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T16:05:53.862811+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 42a0ab99b2d2829d609984b6160f02a39ae69f98bd4d3471da0029b5629921d0
+    name: konga
+    urls:
+    - konga-1.0.0.tgz
+    version: 1.0.0
+  postgres:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T16:05:53.9017919+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 6d50ba48b8baf9be5115cbd82521c2f9f178fe01cb1b8aa44e3f72e679cd320d
+    name: postgres
+    urls:
+    - postgres-0.1.0.tgz
+    version: 0.1.0
+  spring-boot-psql-demo:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T16:05:53.9160747+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 8ba02a49f225f6bc48d0e718b5ccc715ff15c91d4dfdf636271c1cef867c8d17
+    name: spring-boot-psql-demo
+    urls:
+    - spring-boot-psql-demo-0.1.0.tgz
+    version: 0.1.0
+  ssl-demo:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2019-11-05T16:05:53.9230725+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 839767d448d0df82dc7b3dfda005d490ecf2e06f313aeb8c9458ed7cf3926e03
+    name: ssl-demo
+    urls:
+    - ssl-demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-11-05T16:05:53.5693404+05:30"
