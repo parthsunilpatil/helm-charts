@@ -3,7 +3,7 @@ entries:
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2019-11-06T16:31:10.0217513+05:30"
+    created: "2019-11-06T16:37:22.6979363+05:30"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -31,27 +31,17 @@ entries:
   konga:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-06T16:31:10.0310254+05:30"
+    created: "2019-11-06T16:37:22.6989381+05:30"
     description: A Helm chart for Kubernetes
     digest: 42a0ab99b2d2829d609984b6160f02a39ae69f98bd4d3471da0029b5629921d0
     name: konga
     urls:
     - konga-1.0.0.tgz
     version: 1.0.0
-  postgres:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: "2019-11-06T16:31:10.0411138+05:30"
-    description: A Helm chart for Kubernetes
-    digest: 6d50ba48b8baf9be5115cbd82521c2f9f178fe01cb1b8aa44e3f72e679cd320d
-    name: postgres
-    urls:
-    - postgres-0.1.0.tgz
-    version: 0.1.0
   spring-boot-psql-demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-06T16:31:10.0451561+05:30"
+    created: "2019-11-06T16:37:22.6999373+05:30"
     description: A Helm chart for Kubernetes
     digest: 8ba02a49f225f6bc48d0e718b5ccc715ff15c91d4dfdf636271c1cef867c8d17
     name: spring-boot-psql-demo
@@ -61,11 +51,11 @@ entries:
   ssl-demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-06T16:31:10.0723909+05:30"
+    created: "2019-11-06T16:37:22.7180094+05:30"
     description: A Helm chart for Kubernetes
     digest: 839767d448d0df82dc7b3dfda005d490ecf2e06f313aeb8c9458ed7cf3926e03
     name: ssl-demo
     urls:
     - ssl-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-06T16:31:09.9837409+05:30"
+generated: "2019-11-06T16:37:22.695966+05:30"
