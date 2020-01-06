@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  angular-microfrontend:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-01-06T15:20:05.3475952+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 50da3a6e87ba2a5a4024eb7a1d82ebfb303f137c04f3708ec7ad209bc659d35c
+    name: angular-microfrontend
+    urls:
+    - angular-microfrontend-0.1.0.tgz
+    version: 0.1.0
   jenkins:
   - apiVersion: v1
     appVersion: lts
-    created: "2019-11-14T22:20:41.7264975+05:30"
+    created: "2020-01-06T15:20:05.3575886+05:30"
     description: Open source continuous integration server. It supports multiple SCM
       tools including CVS, Subversion and Git. It can execute Apache Ant and Apache
       Maven-based projects as well as arbitrary scripts.
@@ -31,7 +41,7 @@ entries:
   kong:
   - apiVersion: v1
     appVersion: 1.1.1
-    created: "2019-11-14T22:20:41.7284958+05:30"
+    created: "2020-01-06T15:20:05.3714702+05:30"
     description: The Cloud-Native Ingress and Service Mesh for APIs and Microservices
     digest: d5ea528e7519f6fb9053c6e67d7ab7b5b6d199b1d10ad3f349db767ff52439bd
     engine: gotpl
@@ -49,7 +59,7 @@ entries:
   konga:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-14T22:20:41.7293471+05:30"
+    created: "2020-01-06T15:20:05.3825227+05:30"
     description: A Helm chart for Kubernetes
     digest: b29d709afeb0c8087a8ca118e92a2acf2bb0beaf20eeccdfee4a0b44f2c3bb8f
     name: konga
@@ -59,7 +69,7 @@ entries:
   postgres:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-14T22:20:41.7294955+05:30"
+    created: "2020-01-06T15:20:05.3915168+05:30"
     description: A Helm chart for Kubernetes
     digest: 5a9c11ad27d03cf7725c8fb09a2a3563fb5999d990c95cac3cb21887e21ea28a
     name: postgres
@@ -69,7 +79,7 @@ entries:
   spring-boot-microservice:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-14T22:20:41.7304951+05:30"
+    created: "2020-01-06T15:20:05.4015267+05:30"
     description: A Helm chart for Kubernetes
     digest: fc690626ddcf06aa82a0fe5582f60cd70517d21d3fbdcacd42759490a22f843a
     name: spring-boot-microservice
@@ -79,7 +89,7 @@ entries:
   spring-boot-psql-demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-14T22:20:41.7304951+05:30"
+    created: "2020-01-06T15:20:05.4109859+05:30"
     description: A Helm chart for Kubernetes
     digest: 8ba02a49f225f6bc48d0e718b5ccc715ff15c91d4dfdf636271c1cef867c8d17
     name: spring-boot-psql-demo
@@ -89,11 +99,11 @@ entries:
   ssl-demo:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-11-14T22:20:41.7315807+05:30"
+    created: "2020-01-06T15:20:05.4160425+05:30"
     description: A Helm chart for Kubernetes
     digest: 839767d448d0df82dc7b3dfda005d490ecf2e06f313aeb8c9458ed7cf3926e03
     name: ssl-demo
     urls:
     - ssl-demo-0.1.0.tgz
     version: 0.1.0
-generated: "2019-11-14T22:20:41.7235315+05:30"
+generated: "2020-01-06T15:20:05.3465937+05:30"
